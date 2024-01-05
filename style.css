@@ -1,0 +1,31 @@
+#h1span {
+  font-size: 20px;
+  color: rgb(76, 76, 149);
+}
+h1 {
+  color: rgb(95, 36, 36);
+}
+img {
+  height: 20vw;
+}
+.lists {
+  display: flex;
+  background-color: blue;
+  justify-content: space-around;
+}
+.lists a{
+  
+  text-decoration: none;
+  position: fixed;
+}
+video {
+  height: 20vw;
+  width: 30vw;
+}
+#element{
+  color: blue;
+  
+}
+.lists a{
+ color: rgb(53, 53, 186);
+}

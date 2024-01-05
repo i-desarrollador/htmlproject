@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>HTML Project</title>
+    <meta
+      name="description"
+      content="This is my website after learning HTML for 3 consecutive days."
+    />
+    <meta name="keywords" content="contact, about,home" />
+    <link rel="icon" type="image/x-icon" href="/5265761-200.webp" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <main>
+      <div class="lists">
+        <div class="list1"><a href="#home">Home</a></div>
+        <div class="list2"><a href="#about">About</a></div>
+        <div class="list3"><a href="#contact">Contact</a></div>
+      </div>
+      <h1 id="home">
+        Hiii ! desarrollador this side
+        <span id="h1span">developed on 4th of jan 2024</span>
+      </h1>
+      <img src="developer.webp" alt="image of a developer" />
+      <p>
+        This is my first project. I have recently started full stack web
+        developer course ass my kinda new year resolution. Since then I have
+        never missed a day. Hope so I continue till I get a job. As of now I
+        dont have something to fill this page so I am uploading a random video
+      </p>
+      <video src="video.mp4" controls muted loop autoplay></video>
+      <div id="about">
+        <h2>So who am I?</h2>
+        <p>
+          I am a
+          <span id="element"></span>
+        </p>
+        <p>
+          Recently started web development. Before that was busy in cricket and
+          video games
+        </p>
+        <p>
+          So here i have to test tables so here is a useless table for you guys
+        </p>
+        <table border="2px">
+          <tr>
+            <th>Hobbies</th>
+            <td>Cricket</td>
+            <td>BGMI</td>
+            <td>Binge watching</td>
+          </tr>
+          <tr>
+            <th>Time spent daily</th>
+            <td>2hrs</td>
+            <td>3hrs</td>
+            <td>4-5hrs</td>
+          </tr>
+        </table>
+      </div>
+      <div id="contact">
+        <h2>Contact me:</h2>
+        <form action="">
+          <label for="name">Name:</label>
+          <input type="text" placeholder="write your name" id="name" />
+          <label for="name">Number:</label>
+          <input type="number" placeholder="type your number" id="number" />
+          <label for="gender">Gender</label>
+          <input type="radio" name="gender" id="male" />
+          <label for="male">Male</label>
+          <input type="radio" name="gender" id="female" />
+          <label for="female">Female</label>
+          <br />
+          <label for="selection">Select the media</label>
+          <select name="Medid" id="selection">
+            <option value="Instagram">@notavailable</option>
+            <option value="Telegram">thedeveloper</option>
+            <option value="whatsapp">993200912</option>
+          </select>
+          <br />
+          <label for="texta">Message here:</label>
+          <textarea
+            name="texted"
+            id="texta"
+            cols="30"
+            rows="10"
+            placeholder="dont dm on social media if its not necessary"
+          ></textarea>
+        </form>
+      </div>
+    </main>
+    <script src="https://unpkg.com/typed.js@2.1.0/dist/typed.umd.js"></script>
+    <script>
+      var typed = new Typed("#element", {
+        strings: ["Web Developer", "Gamer","Engineer"],
+        typeSpeed: 60,loop:Infinity,
+      });
+    </script>
+  </body>
+</html>
